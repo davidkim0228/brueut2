@@ -15,4 +15,8 @@ Rails.application.routes.draw do
 
   get 'home', to: 'home#free'
 
+
+  root 'home#free'
+
+  get 'events/index'
 end

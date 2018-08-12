@@ -33,6 +33,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#calendar
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+
+gem "simple_calendar", "~> 2.0"
+
+#google sign in
 gem 'omniauth-google-oauth2'
 
 # Reduces boot times through caching; required in config/boot.rb
